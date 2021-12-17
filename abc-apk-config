@@ -1,0 +1,9 @@
+[MakeConfiguration]
+make_app_package = org.gnucash.android.devel
+make_app_debug_package = org.gnucash.android.devel
+make_original_apk_path = app/build/outputs/apk/development/debug/GnucashAndroid_v2.4.1-dev4_r.apk
+make_android_test_apk_path = /Volumes/TOSHIBA/carving/apps-src/gnucash-android/app/build/outputs/apk/androidTest/development/debug/app-development-debug-androidTest.apk
+make_assemble_apk_command = assembleDevelopment
+make_assemble_android_test_command = assembleAndroidTest
+make_test_runner = org.gnucash.android.devel.test/org.gnucash.android.test.ui.util.GnucashAndroidTestRunner
+make_permissions =
